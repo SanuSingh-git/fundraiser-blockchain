@@ -35,13 +35,13 @@ The DApp allows users to donate ETH to a campaign, tracks contributions on-chain
 
 The contract includes:
 
-- `donate()` — accepts donations
-- `withdraw()` — allows the owner to withdraw funds after success
-- `refund()` — allows donors to reclaim funds if the goal fails
-- `donations` mapping — tracks each donor's contribution
-- `totalRaised` — total amount raised
-- `deadline` — fundraiser ending time
-- `withdrawn` — prevents double withdrawal
+- donate() — accepts donations
+- withdraw() — allows the owner to withdraw funds after success
+- refund() — allows donors to reclaim funds if the goal fails
+- donations mapping — tracks each donor's contribution
+- totalRaised — total amount raised
+- deadline — fundraiser ending time
+- withdrawn — prevents double withdrawal
 
 ## Security Considerations
 
