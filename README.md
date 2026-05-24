@@ -1,7 +1,7 @@
 # Decentralized Fundraiser DApp
 
 A blockchain-based fundraising application built with **Solidity** and a **HTML/CSS/JavaScript** frontend.  
-The DApp allows users to donate ETH to a campaign, tracks contributions on-chain, and supports refunds or withdrawals depending on the campaign outcome.
+The dApp allows users to donate ETH to a campaign, tracks contributions on-chain, and supports refunds or withdrawals depending on the campaign outcome.
 
 ## Features
 
@@ -35,19 +35,17 @@ The DApp allows users to donate ETH to a campaign, tracks contributions on-chain
 
 The contract includes:
 
-- donate() - accepts donations
-- withdraw() - allows the owner to withdraw funds after success
+- donate() - used to donate ETH to the fundraiser
+- withdraw() - allows the owner to withdraw funds after the target is achieved
 - refund() - allows donors to reclaim funds if the goal fails
 - donations mapping - tracks each donor's contribution
 - totalRaised - total amount raised
-- deadline - fundraiser ending time
-- withdrawn - prevents double withdrawal
+- deadline - ending time of the campaign
 
 ## Security Considerations
 
 - Uses owner-only access for withdrawal
-- Uses reentrancy protection
-- Follows checks-effects-interactions style for ETH transfers
+- Uses OpenZeppelin's reentrancy protection
 - Prevents multiple withdrawals
 
 ## Getting Started
@@ -60,10 +58,10 @@ The contract includes:
 ### Deployment
 1. Open the Solidity file in Remix IDE.
 2. Compile the contract.
-3. Deploy it using Remix VM or MetaMask.
+3. Deploy it using Remix VM after connecting it to a MetaMask address.
 4. Connect the frontend to the deployed contract address by changing the contract address field in the .html file.
 5. Open the .html file through an open server.
-6. Interact with the DApp by donating, checking status, or withdrawing/refunding based on campaign conditions.
+6. The dApp is now ready to use.
 
 ## Author
 Sanu Singh
