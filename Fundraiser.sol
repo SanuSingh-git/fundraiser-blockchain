@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.10;
 
-import "openzeppelin/contracts/security/ReentrancyGuard.sol";
+import "./ReentrancyGuard.sol";
 
 contract Fundraiser is ReentrancyGuard{
     string public title;
