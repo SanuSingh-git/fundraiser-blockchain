@@ -63,5 +63,10 @@ The contract includes:
 5. Open the .html file through an open server.
 6. The dApp is now ready to use.
 
+## Demo Video link
+
+https://drive.google.com/file/d/1urGzVixPDJKeKJUSvS1VXHIqvIFPY49M/view?usp=drive_link
+
+
 ## Author
 Sanu Singh
