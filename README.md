@@ -45,7 +45,7 @@ The contract includes:
 ## Security Considerations
 
 - Uses owner-only access for withdrawal
-- Uses OpenZeppelin's reentrancy protection
+- Uses OpenZeppelin's reentrancy protection (ReentrancyGuard.sol)
 - Prevents multiple withdrawals
 
 ## Getting Started
@@ -56,7 +56,7 @@ The contract includes:
 - An Ethereum test network or Remix VM
 
 ### Deployment
-1. Open the Solidity file in Remix IDE.
+1. Open Fundraiser.sol and ReentrancyGuard.sol the same folder in Remix IDE.
 2. Compile the contract.
 3. Deploy it using Remix VM after connecting it to a MetaMask address.
 4. Connect the frontend to the deployed contract address by changing the contract address field in the .html file.
