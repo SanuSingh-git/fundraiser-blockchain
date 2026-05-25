@@ -57,7 +57,7 @@ The contract includes:
 
 ### Deployment
 1. Open Fundraiser.sol and ReentrancyGuard.sol the same folder in Remix IDE.
-2. Compile the contract.
+2. Compile Fundraiser.sol.
 3. Deploy it using Remix VM after connecting it to a MetaMask address.
 4. Connect the frontend to the deployed contract address by changing the contract address field in the .html file.
 5. Open the .html file through an open server.
